@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+}
+
+.logoo{
+background-color: gray;
+justify-content: left;
+width: 80px ;
+}
+
+.contact-link{
+    color: white;
+    background-color: orangered;
+    border: 1px solid orangered;
+    border-radius: 5px;
+    padding: 50px 10px 10px;}
+
+
+nav{
+    background-color: grey;
+    display: flex;
+    justify-content: space-between ;
+    padding: 20px 40px
+}
+
+.navbar{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: georgia;
+    border-radius: 5px;
+    padding: 5px;
+    color: darkblue;
+}
+/* home */
+.sosmed {
+    justify-content: center;
+    display: flex;
+    gap:2rem ;
+    padding: 5px;
+}
+
+.biru {
+    color: black;
+    background-color: brown;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 7px;
+}
