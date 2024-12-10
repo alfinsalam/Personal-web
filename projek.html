@@ -1,53 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Project</title>
-    <link rel="icon" href="gambar.jpg" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="projek.css" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="projek.css" />
+    <title>My Projek</title>
   </head>
   <body>
-    <nav>
-      <div class="navbar-left">
-        <a href="#">
-          <img class="web-logo" src="logoweb.jpg" alt="web logo" />
-        </a>
-        <ul class="navbar-links">
-          <li>
-            <a href="projek.html" class="link">My Project</a>
-          </li>
-        </ul>
+    <div class="container">
+      <div class="header">
+        <h1>FORM PENDAFTARAN ONLINE</h1>
+        <p>Selengkapnya anda bisa membaca tentang ketentuan dan kebijakan penggunaan form pendaftaran online ini di https://www.calondesain.com/</p>
       </div>
-    </nav>
-    <main class="main">
-      <section class="blog-S">-
-        <form class="form-container">
-          <h1 class="section-title">ADD MY PROJECT</h1>
+      <div class="content">
+        <p>Pastikan anda telah mengisi dengan benar formulir pendaftaran dibawah ini:</p>
+        <span>*</span> Wajib
+        <br>
+        <br>
+        <div class="form-row">
+          <label for="nama">1. Nama Lengkap <span>*</span></label>
+          <input class="full-input" type="text" placeholder="Nama Ganteng" required>
+        </div>
+        <div class="form-row">
+          <label for="nama">2. Jenis Kelamin <span>*</span></label>
+          <input type="radio" name="gender" value="Laki-laki">Laki-laki
+          <br>
+          <input type="radio" name="gender" value="Perempuan">Perempuan
+          <br>
+          <input type="radio" name="gender" value="Perempuan">Lain-lain wkwkwkw
+        </div>
+        <div class="form-row">
+          <label for="nama">3. Email Akun <span>*</span></label>
+          <input class="full-input" type="text" placeholder="salamganteng@gmail.com" required>
+        </div>
+        <div class="form-row">
+          <label for="nama">4. Nomor Handphone Aktif <span>*</span></label>
+          <input class="full-input" type="text" placeholder="No telpon anda" required>
+        </div>
+        <div class="form-row">
+          <label for="nama">5. Nomor Whatsapp</label>
+          <p class="italic">*Abaikan jika sama dengan nomor handphone.</p>
+          <input class="full-input" type="text" placeholder="No WhatsApp anda">
+        </div>
+        <div class="form-row">
+          <label for="nama">6. Kota Domisili <span>*</span></label>
+          <input class="full-input" type="text" placeholder="Kota tinggal anda saat ini" required>
+        </div>
+        <div class="form-row">
+          <label for="nama">7. Pekerjaan <span>*</span></label>
+          <input type="radio" name="profesi">Profesional IT
+          <br>
+          <input type="radio" name="profesi">Karyawan Swasta
+          <br>
+          <input type="radio" name="profesi">Pelajar/Mahasiswa
+          <br>
+          <input type="radio" name="profesi"><input class="short-input" type="text" placeholder="Other">
+        </div>
+        <div class="form-row">
+          <label for="nama">8. Nama Instansi Kampus/Kantor Atau Keterangan Lainnya <span>*</span></label>
+          <input class="full-input" type="text" placeholder="Enter your answer" required>
+        </div>
+        <div class="form-submit">
+          <button>DAFTAR</button>
+        </div>
+      </div>
+    </div>
 
-          <div class="form-field">
-            <label for="input-blog-title" class="form-label"
-              >Project Name</label
-            >
-            <input
-              id="input-blog-title"
-              class="form-input"
-              placeholder="text"
-              name="input-blog-title"
-              type="text"
-              required
-            />
-          </div>
-          <div class="form-field">
-            <form action="">
-              <label for="date">Start date:</label>
-              <input type="date" id="datepicker" required />
-            </form>
-          </div>
-         
-        </form>
-      </section>
-    </main>
+    <footer>
+      <p>Copyright &copy; Junior Dev by Abdussalam 2024</p>
+    </footer>
   </body>
 </html>
